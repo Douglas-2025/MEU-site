@@ -75,39 +75,81 @@ https://templatemo.com/tm-559-zay-shop
 
 
 
- <!-- Start Contact -->
-
-  
- <div class="container py-5">
-    
+   <!-- ==================== FORMULÁRIO DE CONTATO ==================== -->
+<div class="container py-5">
     <div class="row justify-content-center">
-      <form class="col-lg-8" method="post">
+      <form
+        class="col-lg-8"
+        action="https://formspree.io/f/mldbjaon"
+        method="POST"
+        accept-charset="UTF-8"
+      >
         <h2>Contato</h2>
+  
+        <!-- Forçar retorno em JSON -->
+        <input type="hidden" name="_format" value="json" />
+  
         <div class="row g-3">
+          <!-- Campo Nome -->
           <div class="col-md-6">
             <div class="form-floating">
-              <input type="text" class="form-control" id="name" placeholder="Nome">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
               <label for="name">Nome</label>
             </div>
           </div>
+  
+          <!-- Campo Email -->
           <div class="col-md-6">
             <div class="form-floating">
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
               <label for="email">Email</label>
             </div>
           </div>
+  
+          <!-- Campo Assunto -->
           <div class="col-12">
             <div class="form-floating">
-              <input type="text" class="form-control" id="subject" placeholder="Assunto">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                name="subject"
+                placeholder="Assunto"
+              />
               <label for="subject">Assunto</label>
             </div>
           </div>
+  
+          <!-- Campo Mensagem -->
           <div class="col-12">
             <div class="form-floating">
-              <textarea class="form-control" placeholder="Mensagem" id="message" style="height: 150px;"></textarea>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                placeholder="Mensagem"
+                style="height: 150px;"
+                required
+              ></textarea>
               <label for="message">Mensagem</label>
             </div>
           </div>
+  
+          <!-- Botão Enviar -->
           <div class="col-12 text-end">
             <button type="submit" class="btn btn-success btn-lg">Enviar</button>
           </div>
@@ -115,9 +157,6 @@ https://templatemo.com/tm-559-zay-shop
       </form>
     </div>
   </div>
-  
-<!-- End Contact -->
-
 
 
 

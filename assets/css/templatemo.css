@@ -34,6 +34,50 @@ body, ul, li, p, a, label, input, div {
   font-size: 18px !important;
   font-weight: 300 !important;
 }
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+.whatsapp-float i {
+  width: 30px;
+  height: 30px;
+    color: #fff;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.img-hover {
+    transition: transform 1s ease;
+    height: auto;
+  }
+
+  .img-hover:hover {
+    transform: translateY(-30%);
+  }
+
+  .transition {
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
