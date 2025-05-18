@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-2xl font-bold text-neon-blue neon-glow">
-              Portfolio
+              Douglas Júlio
             </a>
             <p className="text-gray-400 mt-2">
               Construir o futuro, uma linha de código de cada vez.
