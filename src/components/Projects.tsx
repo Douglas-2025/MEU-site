@@ -50,6 +50,15 @@ const Projects = () => {
       demoLink: "https://example.com",
       githubLink: "https://github.com",
       techStack: ["HTML5", "Bootstrap", "Next.js", "JavaScript", "CSS3", "TailwindCSS"]
+    },
+    {
+      id: 5,
+      title: "Atividade – SENAI (Crie um site simples)",
+      description: "Este projeto foi desenvolvido com o objetivo de aprender a como criar um site, para fins educacional (SENAI)",
+      image: "/img/aulapresencial_senai.jpeg",
+      demoLink: "https://example.com",
+      githubLink: "https://github.com",
+      techStack: ["HTML5", "Bootstrap", "CSS3", "JavaScript", "CSS3",]
     }
   ];
 
