@@ -47,7 +47,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-neon-blue/20 to-transparent p-1 animate-float">
                 <div className="w-full h-full rounded-full bg-dark-medium border border-neon-blue/30 flex items-center justify-center text-6xl text-neon-blue neon-glow">
                 
-                  <img src="/public/img/minha_foto_sf.png" alt="minha_foto" className='bg-neon-blue neon-glow rounded-full w-full h-full object-cover object-center'/>
+                  <img src="/img/minha_foto_sf.png" alt="minha_foto" className='bg-neon-blue neon-glow rounded-full w-full h-full object-cover object-center'/>
                    
                 </div>
               </div>
