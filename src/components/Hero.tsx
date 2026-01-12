@@ -24,7 +24,7 @@ const Hero = () => {
                 Douglas<span className="text-neon-blue neon-glow">Júlio</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
-                Frontend Developer & UI/UX Designer
+                Front-end Developer & UI/UX Designer
               </p>
               <p className="text-gray-400 max-w-lg mb-8">
                Eu crio aplicações web modernas com foco em design limpo, 
